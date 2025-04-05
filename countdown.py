@@ -13,7 +13,7 @@ def countdown(seconds):
     print(' ' * len(timeformat), end='\r')  # カウントダウン終了後に行をクリア
 
 while True:
-    countdown(15 * 60)
+    countdown(20 * 60)
     play_alarm('./loop100601.wav')
     countdown(5 * 60)
     play_alarm('./loop100601.wav')
